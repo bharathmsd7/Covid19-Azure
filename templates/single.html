@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from quomodosoft.com/html/ncovid/single.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 25 May 2020 12:33:12 GMT -->
+<head>
+
+<title>nCovid News Details</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="icon" href="static/img/icon/fabicon.png">
+
+<link rel="stylesheet" href="static/css/plugins/bootstrap.min.css">
+<link rel="stylesheet" href="static/css/plugins/animate.min.css">
+<link rel="stylesheet" href="static/css/plugins/fontawesome.css">
+<link rel="stylesheet" href="static/css/plugins/stellarnav.css">
+<link rel="stylesheet" href="static/css/plugins/space__grotesk.css">
+<link rel="stylesheet" href="static/css/typography.css">
+<link rel="stylesheet" href="static/css/buttons.css">
+<link rel="stylesheet" href="static/css/inner.css">
+<link rel="stylesheet" href="static/css/theme.css">
+<link rel="stylesheet" href="static/css/header.css">
+<link rel="stylesheet" href="static/css/footer.css">
+<link rel="stylesheet" href="static/css/responsive.css">
+</head>
+<body>
+
+
+
+<div class="header__area inner__header header__absolute theme__bg2" id="header">
+<div class="container">
+<div class="row">
+<div class="col-6 col-md-5 col-xl-3 align-self-center">
+<a href="index.html" class="logo"><img src="static/img/logo/logo2.png" alt=""></a>
+</div>
+<div class="col-6 col-md-7 col-xl-6 text-center align-self-center">
+<div class="main__menu">
+<div class="stellarnav">
+<ul class="navclass" id="scroll">
+<li><a href="#home">Home</a>
+<ul>
+<li><a href="index.html">light version 1</a></li>
+<li><a href="index3.html">light version 2</a></li>
+<li><a href="index2.html">dark version 1</a></li>
+<li><a href="index4.html">dark version 2</a></li>
+</ul>
+</li>
+<li><a href="#about">About</a></li>
+<li><a href="#contagion">Contagion</a></li>
+<li><a href="#symptoms">Symptoms</a></li>
+<li><a href="#blog">Blog</a>
+<ul>
+<li><a href="blog.html">Blog</a></li>
+<li><a href="single.html">blog details</a></li>
+</ul>
+</li>
+<li><a href="#prevention">Prevention</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="inner__hero theme__bg2">
+<div class="container">
+<div class="row">
+<div class="col-lg-8 m-auto text-center">
+<div class="inner__text white">
+<h1>Login</h1>
+
+</div>
+</div>
+</div>
+</div>
+<img src="static/img/shape/shape__white1.png" alt="" class="shape shape1">
+<img src="static/img/shape/shape__white2.png" alt="" class="shape shape2">
+</div>
+
+
+<div class="blog-page-area section-padding" style="padding-top: 50px;">
+<div class="container">
+<div class="row">
+<div class="space-30"></div>
+<div class="comment_form">
+<h3>We will keep your details safe.</h3>
+<div class="space-20"></div>
+<form action='/my_map' method='POST'>
+<input type="text" placeholder="Name" name="name" >
+<input type="email" placeholder="Email" name="email">
+<input type="text" placeholder="Number" name="number" style="margin-top: 20px;">
+<input type="text" placeholder="Location" name="location" id="demo" style="margin-top: 20px;">
+<div class="space-20"></div>
+<input type="button" onclick="getlocation()" class="cbtn btn1" value="Allow Location" >
+<input type="submit" class="cbtn btn1" value="Sign in">
+</form>
+</div>
+</div>
+</div>
+</div>
+
+<div class="cta__area theme__bg2__haf">
+<div class="container">
+<div class="row">
+<div class="col-12">
+<div class="cta">
+<div class="cta_wrap">
+<div class="row">
+<div class="col-lg-8 m-auto text-center">
+<div class="title">
+<h2>Want to test Covid-19?</h2>
+<h4>Our goal at Our World in Data is to provide testing data over time for many countries around the world.</h4>
+<div class="space-30"></div>
+<div class="btn__group">
+<a href="#" class="cbtn emergency_btn">
+<img class="btn__icon" src="static/img/icon/alert__phone.svg" alt="">
+<img class="btn__hover__icon" src="static/img/icon/alert__phone__white.svg" alt="">
+Call For Test
+</a>
+<a href="#" class="cbtn emergency_btn">
+<img class="btn__icon" src="static/img/icon/calender__red.png" alt="">
+<img class="btn__hover__icon" src="static/img/icon/calender.png" alt="">
+Book Doctor
+</a>
+</div>
+</div>
+</div>
+</div>
+<img src="static/img/shape/shape__white2.png" alt="" class="cta__img cta__img1">
+<img src="static/img/shape/shape__white2.png" alt="" class="cta__img cta__img2">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<script>        
+    function getlocation() {
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+      } 
+    }
+    
+    function showPosition(position) {
+        document.getElementById('demo').value =  position.coords.latitude + " " +position.coords.longitude;
+
+        } 
+
+    </script>
+
+
+<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="static/js/plugins/jQuery.2.1.0.min.js" type="40f0baca261fd5ecb1f4e320-text/javascript"></script>
+<script src="static/js/plugins/bootstrap.min.js" type="40f0baca261fd5ecb1f4e320-text/javascript"></script>
+<script src="static/js/plugins/jquery.nav.js" type="40f0baca261fd5ecb1f4e320-text/javascript"></script>
+<script src="static/js/plugins/jquery.waypoints.min.js" type="40f0baca261fd5ecb1f4e320-text/javascript"></script>
+<script src="static/js/plugins/stellarnav.js" type="40f0baca261fd5ecb1f4e320-text/javascript"></script>
+<script src="static/js/plugins/popper.min.js" type="40f0baca261fd5ecb1f4e320-text/javascript"></script>
+<script src="static/js/plugins/jquery.counterup.js" type="40f0baca261fd5ecb1f4e320-text/javascript"></script>
+<script src="static/js/plugins/wow.min.js" type="40f0baca261fd5ecb1f4e320-text/javascript"></script>
+<script src="static/js/main.js" type="40f0baca261fd5ecb1f4e320-text/javascript"></script>
+<script src="../../../ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="40f0baca261fd5ecb1f4e320-|49" defer=""></script><script defer src="../../../static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"598f43137fe3cbe4","version":"2020.5.0","startTime":1590409767480}'></script>
+</body>
+
+<!-- Mirrored from quomodosoft.com/html/ncovid/single.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 25 May 2020 12:33:15 GMT -->
+</html>

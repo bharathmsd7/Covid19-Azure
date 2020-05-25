@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_aac170e29f3e466ab15265765eb3739c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_aac170e29f3e466ab15265765eb3739c" ></div>
+        
+</body>
+<script>    
+    
+            var map_aac170e29f3e466ab15265765eb3739c = L.map(
+                "map_aac170e29f3e466ab15265765eb3739c",
+                {
+                    center: [11.127122499999999, 78.6568942],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_97d956b2abc84f2f91a1f699e46f86e8 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_aac170e29f3e466ab15265765eb3739c);
+        
+    
+            var circle_marker_986519df7c484052b6e59bffe201a72f = L.circleMarker(
+                [11.127122499999999, 78.6568942],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 75, "stroke": true, "weight": 3}
+            ).addTo(map_aac170e29f3e466ab15265765eb3739c);
+        
+    
+        var popup_87b780383e884feb95c58dc2a81f4462 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cc92fea1fec344b78f25eca736f9f836 = $(`<div id="html_cc92fea1fec344b78f25eca736f9f836" style="width: 100.0%; height: 100.0%;">bharath</div>`)[0];
+            popup_87b780383e884feb95c58dc2a81f4462.setContent(html_cc92fea1fec344b78f25eca736f9f836);
+        
+
+        circle_marker_986519df7c484052b6e59bffe201a72f.bindPopup(popup_87b780383e884feb95c58dc2a81f4462)
+        ;
+
+        
+    
+    
+            var marker_3c6242e25d56477c97f36122906354a2 = L.marker(
+                [11.127122499999999, 78.6568942],
+                {}
+            ).addTo(map_aac170e29f3e466ab15265765eb3739c);
+        
+    
+        var popup_777730bd01444f66a9af1d9c037b64b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_afb4c6dce09e450c80d8e399a876ce75 = $(`<div id="html_afb4c6dce09e450c80d8e399a876ce75" style="width: 100.0%; height: 100.0%;"> Bharath </div>`)[0];
+            popup_777730bd01444f66a9af1d9c037b64b6.setContent(html_afb4c6dce09e450c80d8e399a876ce75);
+        
+
+        marker_3c6242e25d56477c97f36122906354a2.bindPopup(popup_777730bd01444f66a9af1d9c037b64b6)
+        ;
+
+        
+    
+    
+            marker_3c6242e25d56477c97f36122906354a2.bindTooltip(
+                `<div>
+                     Bharath
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
