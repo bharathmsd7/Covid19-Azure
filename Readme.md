@@ -4,6 +4,8 @@
 
 __Lets Break the Chain__ :smile: 
 
+__Download Apk from here__ [Covid.co](app-debug.apk)
+
  
 
 ![alt text](https://www.holbrooklife.com/wp-content/uploads/2020/03/covid-2.jpg) 
